@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India-Watch TV shows Online, Watch Movies Online</title>
+    <link rel="icon" href="head2.jpeg">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: system-ui, sans-serif;
+            color: white;
+        }
+        #top1{
+           width: 100px;
+           height: 100px;
+        }
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #container {
+            background-image: url(realbg.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #s1 {
+            width: 100px;
+            height: 35px;
+            background-color: black;
+            border: 1px solid gray;
+            border-radius: 10px;
+            color: white;
+        }
+
+        #body1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 15% 20px 0 20px;
+        }
+
+        #body2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        #body2 input {
+            width: 100%;
+            max-width: 300px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        #body2 button {
+            width: 160px;
+            height: 50px;
+            background-color: red;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #bottom {
+            background-color: black;
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        #bottom div {
+            max-width: 100%;
+        }
+
+        #b1 {
+            font-size: 60px;
+        }
+
+        @media (max-width: 768px) {
+            #main {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            #bottom {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            #b1 {
+                font-size: 35px;
+            }
+
+            .space, .space2 {
+                padding: 10px 0;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #b1 {
+                font-size: 25px;
+            }
+            #body1 {
+                padding-top: 30%;
+            }
+
+            #body2 {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+        }
+    </style>
+</head>
+    <body>
+        <div id="container">
+        <div id="main">
+            <div id="top1">
+                <img src="vecteezy_netflix-transparent-png-netflix-free-png_19956195 (1).png" >
+            </div>
+            <div id="top2">
+                <select  id="s1" >
+                    <option value="" selected><img src="translate.png">English</option>
+                    <option value="">Tamil</option>
+                </select>
+                 <button id="button1" style=" width: 100px; height:35px; background-color: red;border-color: red; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+             Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;border-radius: 10px; font-weight:bolder;">
+                <a href="signin1.html" style="color: white;text-decoration: none; ">
+                    Signin
+                </a>
+            </button>
+            </div>
+        </div><br>
+
+        <div id="body1">
+            <div id="b1">
+                  
+                Unlimited movies, TV
+                </div>
+
+                <div id="b1">
+               shows and more
+                </div>
+            
+            <div>
+        
+                Starts at $1.5. Cancel at any time. 
+        
+            </div>
+
+        <div>
+        <p>
+                Ready to watch? Enter your email to create or restart your<br>
+                <center>membership</center>
+        </p>
+        </div>
+        </div>
+        
+        <br>
+        <br>
+        <div id="body2">
+             
+                <div style="width: 300px;">
+                    <input type="email" placeholder="Email address" style="background-color: black ;color: white;
+                        width:300px;height: 50px; border-radius: 10px; border-color: gray;"> 
+                </div>
+
+                <div>
+                  <button
+                        style=" width: 160px; height:50px; ; color: white; background-color: red;border-color:
+                         red; border-radius: 10px; font-weight:bolder; font-size: 20px;"> <a href="sign-up1.html" style="text-decoration: none;">Get Started ></a></button>
+                    </div> 
+            
+        </div>
+        <br> 
+       
+        </div>
+        
+        <hr>
+
+        <div id="bottom">
+        
+        
+            
+                <div  class="space"><br><br>
+                   <p style="font-size: 40px; font-weight: bold;">Enjoy on your TV</p>
+                    <p style="font-size: 20px;"> Watch on smart TVs, playstation, Xbox,Chromecast, Apple TV, Blu-ray players and more. </p>
+                </div>
+                
+                <div >
+                    <img src="feature-1.png" alt="" width="450px"height="400px"  >
+                </div> 
+                 
+                  <div class="space2" style="float: left;padding-left: 16%;">
+                    <img src="feature-2.png" alt="" width="450px"height="400px"  >
+                </div>
+
+                    <div class="space2"><br><br>
+                   <p style="font-size: 40px; font-weight: bold;"> Download your shows to watch offline</p>
+                    <p style="font-size: 20px;">Save your favourites easily and always have something to watch. </p>
+                    </div>
+
+                   <div style=" align-items: center; "><br><br>
+                    <p style="font-size: 40px; font-weight: bold;">  Watch everywhere</p>
+                    <p style="font-size: 20px;">Stream unlimited movies and TV shows on your phone, tablet, laptop and TV. </p>
+                    </div>
+                    <div >
+                    <img src="feature-3.png" alt="" width="450px"height="400px"  >
+                    </div> 
+                    <div style=" padding-left: 7.5%;">
+                    <img src="feature-4.png" alt="" width="450px"height="400px"  >
+                    </div>
+                    <div style=" align-items: center; padding-top: 6%; padding-left: 0%;"><br><br>
+                    <p style="font-size: 40px; font-weight: bold;"> Create profiles for kids</p>
+                     <p style="font-size: 20px;">Send kids on adventures with their favourite characters in a space made just for them free with your membership. </p>
+                </div>
+
+
+ 
+                </div>
+            
+        </div>
+
+
+    
+
+
+</body>
+</html>

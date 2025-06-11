@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Home</title>
+  <link rel="icon" href="head2.jpeg" />
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', sans-serif;
+    }
+
+    body {
+      background-color: rgba(0, 10, 10, 0.8);
+      color: white;
+    }
+
+    #top1 {
+      width: 100%;
+
+      display: flex;
+      align-items: center;
+      padding-left: 60px;
+    }
+
+    #top1 img {
+      height: 100px;
+      width: 100px;
+    }
+
+    #main1 {
+      padding: 30px 5%;
+    }
+
+    h1 {
+      font-size: 60px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-size: 22px;
+      text-align: justify;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    #slot1 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    #slot1 div {
+      flex: 1 1 150px;
+      max-width: 200px;
+    }
+
+    #slot1 img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    #slot1 img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    /* Responsive text and layout */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 40px;
+      }
+      .description {
+        font-size: 18px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      #top1 {
+        justify-content: center;
+        padding: 10px;
+      }
+
+      #slot1 {
+        gap: 10px;
+      }
+
+      #slot1 div {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="top1">
+    <a href="firstpage.html">
+      <img src="vecteezy_netflix-transparent-png-netflix-free-png_19956195 (1) - Copy.png" />
+    </a>
+  </div>
+
+  <div id="main1">
+    <h1>Movies</h1>
+    <p class="description">
+      Movies move us like nothing else can—whether they’re scary, funny,
+      dramatic, romantic, or anywhere in-between. So many titles, so much to
+      experience. Dive in and discover your next favorite film.
+    </p>
+
+    <h2>Your Next Watch</h2>
+    <div id="slot1">
+      <div><a href="spidermannowayhome.html"><img src="goat.jpg" alt="Goat Movie Poster" /></a></div>
+      <div><a href="spidermannowayhome.html"><img src="spiderman no way home'.jpg" alt="Spider-Man: No Way Home" /></a></div>
+      <div><a href="spidermannowayhome.html"><img src="venom  the last dance.jpg" /></a></div>
+      <div><a href="spidermannowayhome.html"><img src="meiyazhagan.jpg" alt="Meiyazhagan" /></a></div>
+      <div><a href="spidermannowayhome.html"><img src="amaran.jpg" alt="Amaran" /></a></div>
+      <div><a href="spidermannowayhome.html"><img src="dragon.jpg" alt="Dragon" /></a></div>
+
+    </div> 
+  </div>
+  <div>
+    this page is under development
+  </div>
+   
+
+
+</body>
+</html>
